@@ -33,7 +33,7 @@ describe('AppComponent', () => {
 
   it('should render three toDoItems', () => {
     component.ngOnInit();
-    fixture.detectChanges();
+    // fixture.detectChanges();
     expect(component.toDoItems.length).toEqual(3);
   });
 });
